@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Programación 1</title>
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen" />
+	<link href="css/style.css" rel="stylesheet" media="screen" />
+</head>
+<body>
+<div id="container">
+	<h1>Listado de alumnos</h1>
+	<div id="listado">
+		<table class="table table-stripe">
+		<!--
+			Ejemplo de como debe quedar, con la estructura html y las clases.
+			<tr>
+				<td>Apellido, Nombre </td><td><a href="#" class="text-success">Aprobado</a></td><td><a href="#" class="btn btn-mini btn-danger"><span class="icon-remove icon-white"></span></a></td>
+			</tr>
+			<tr>
+				<td>Apellido, Nombre </td><td><a href="#" class="text-error">Desaprobado</a></td><td><a href="#" class="btn btn-mini btn-danger"><span class="icon-remove icon-white"></span></a></td>
+			</tr>
+		-->
+		</table>
+		<form action="#" class="form-inline">
+			<fieldset>
+				<legend>Agregar Alumno</legend>
+				<label for="nombre">Nombre : </label>
+				<input type="text" name="nombre" id="nombre" class="input-medium" />
+				<label class="checkbox">
+					<input type="checkbox" name="aprobado" /> Aprobado
+				</label>
+				<input type="submit" value="Ingresar" class="btn btn-primary" id="submit" />
+			</fieldset>
+		</form>
+	</div>
+</div>
+<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
